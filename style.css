@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+/* Les polices  */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&display=swap');
+
+
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#E5E5E5;
+
+    }
+main{
+    width: 100%;
+    height:100vh;
+    background-color:#E5E5E5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left:20px ;
+    padding-right: 20px;
+
+    /* Shape style */
+    width: 280px;
+    height: 473px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius:15px;
+
+    /* Mise en forme */
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color:#014768;
+}
+.QRcode{
+    width:284px;
+    height: 262px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+P{
+    margin-top: 15px;
+}
+.Qr-code-title {
+    font-size: 17px;
+    font-weight:800;
+
+}
+.Qr-code-description{
+    font-size: 15px;
+    color:#8B9EA7;
+}
+@media(max-width:375px){
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
